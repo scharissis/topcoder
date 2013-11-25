@@ -1,5 +1,7 @@
 """ 
 	TopCoder - SRM 147, DIV 2, 250
+
+	Passes all system tests.
 """
 
 import array,bisect,collections,fractions,heapq,itertools,math,re,string 
@@ -18,6 +20,8 @@ class CCipher:
 
 tests = {
 	"TOPCODER": ["VQREQFGT",2],
+	"TOPCODER": ["TOPCODER",0],
+	"AXCHMA": ["ZWBGLZ",25],
 }
 c = CCipher()
 for t in tests:

@@ -2,8 +2,6 @@
 	TopCoder - SRM 144, DIV 2, 200
 
 	Passes all system tests.
-	
-	Submitted for 90 points.
 """
 
 class Time:

@@ -1,5 +1,7 @@
 """
 	TopCoder - SRM 146, DIV 2, 500
+
+	Passes all system tests.
 """
 
 class RectangularGrid:

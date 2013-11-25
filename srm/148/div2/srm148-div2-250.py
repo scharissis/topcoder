@@ -9,8 +9,7 @@ import array,bisect,collections,fractions,heapq,itertools,math,re,string
 class DivisorDigits:
 	def howMany(self,N):
 		original = N
-		count = 0
-		last = 0
+		count, last = 0, 0
 		while N > 0:
 			last = N%10
 			if last!= 0 and original%last == 0:
